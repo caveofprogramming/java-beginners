@@ -61,17 +61,17 @@ public class App {
          
         ////////////// Intersection ///////////////////
          
-        Set<String> intersection = new HashSet<String>(set1);
+        Set<String> intersection = new HashSet<String>(set1);  
          
-        intersection.retainAll(set2);
+        intersection.retainAll(set2);  // keeps similarities between set 1 and set 2
          
         System.out.println(intersection);
          
         ////////////// Difference /////////////////////////
          
-        Set<String> difference = new HashSet<String>(set2);
+        Set<String> difference = new HashSet<String>(set2);  
          
-        difference.removeAll(set1);
+        difference.removeAll(set1);   // removes differences between set1 and set2, prints what is left of set2
         System.out.println(difference);
     }
  
