@@ -14,14 +14,10 @@ public class Application {
         byte myByte = 127;
          
          
-        System.out.println(myNumber);
-        System.out.println(myShort);
-        System.out.println(myLong);
-        System.out.println(myDouble);
-        System.out.println(myFloat);
-        System.out.println(myChar);
-        System.out.println(myBoolean);
-        System.out.println(myByte);
+       System.out.println(myNumber+"\n"+myShort+"\n"+myLong
+                                    +"\n"+myDouble+"\n"+myFloat
+                                    +"\n"+myChar+"\n"+myBoolean+"\n"+myByte);;
+       
     }
  
 }
