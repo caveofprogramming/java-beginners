@@ -3,7 +3,7 @@ public class Application {
          
         int value = 0;
      
-        while(value < 10)
+        while(value < 10)//this loop executed while the result is true
         {
             System.out.println("Hello " + value);
              
@@ -11,3 +11,18 @@ public class Application {
         }
     }
 }
+
+/*Expected Output:
+
+Hello 0
+Hello 1
+Hello 2
+Hello 3
+Hello 4
+Hello 5
+Hello 6
+Hello 7
+Hello 8
+Hello 9
+
+*/
