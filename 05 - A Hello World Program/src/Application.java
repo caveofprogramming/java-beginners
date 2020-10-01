@@ -10,3 +10,8 @@ public class Application {
     }
  
 }
+
+/*Expected Output:
+Hello World!
+(cursor will move to next line because we use println instead of print
+*/
