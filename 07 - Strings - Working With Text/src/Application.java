@@ -22,3 +22,10 @@ public class Application {
         System.out.println("My number is: " + myDouble + ".");
     }
 }
+
+/*Expected Output =>
+Hello Bob
+Hello Bob
+My integer is: 7
+My number is: 7.8.
+*/
