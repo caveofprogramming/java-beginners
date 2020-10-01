@@ -23,3 +23,18 @@ public class Application {
 		}
 	}
 }
+
+/*Expected output =>
+true
+true
+true
+false
+Looping: 0
+Running
+Looping: 1
+Running
+Looping: 2
+Running
+Looping: 3
+
+*/
