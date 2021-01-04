@@ -13,7 +13,7 @@ public class Application {
          
         byte myByte = 127;
          
-         
+         //Shortcut For System.out.println You Can Type ---> Sout <---
         System.out.println(myNumber);
         System.out.println(myShort);
         System.out.println(myLong);
